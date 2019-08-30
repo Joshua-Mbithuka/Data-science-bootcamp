@@ -1,0 +1,38 @@
+#sale-receipt-modal{
+          width: 500px;
+          /*position:absolute;*/
+          left: 55%;
+          height:600px !important;
+        }
+#salecontent {
+    /* 80% of window height */
+    height: 60%;
+    /*background-color:#BBD6EC;*/
+}        
+#saleheader {
+    background-color: #e6e6ff;
+    padding:16px 16px;
+    color:#FFF;
+    border-bottom:2px  #337AB7;
+ }
+ /*#purchase-receipt-modal{
+          width: 1000px;
+          position:relative;
+          
+          /*height:1000px !important;
+        }
+#purchasecontent {
+    /* 80% of window height *
+    height: 60%;
+    background-color:#BBD6EC;
+}        
+#purchaseheader {
+    background-color: #337AB7;
+    padding:16px 16px;
+    color:#FFF;
+    border-bottom:2px dashed #337AB7;
+ }*/
+.text-rigth
+          {
+            margin-right: 20em;
+          }

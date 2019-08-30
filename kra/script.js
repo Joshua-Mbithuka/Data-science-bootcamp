@@ -63,19 +63,19 @@ function prepareSales(){
 
 
 $(document).ready(function(){
-    $("#add-purchase").on("click", function(){
+    //$("#add-purchase").on("click", function(){
         console.log("Modal Open")
         $("#purchase-receipt-modal").modal("show")
     })
 
     $("#add-sale").on("click", function(){
         console.log("Modal Open")
-        prepareSales()
+        //prepareSales()
         $("#sale-receipt-modal").modal("show")
 
     })
 
-});
+//});
 
 $(document).ajaxComplete(function(){
     $(".add-sale-btn").on("click", function(){
